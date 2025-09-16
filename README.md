@@ -7,17 +7,13 @@
 ## 📂 프로젝트 구조
 이 저장소는 다음과 같은 디렉터리로 구성되어 있습니다. 각 디렉터리에는 실습 스크립트와 상세한 설명을 담은 README.md 파일이 포함되어 있습니다.
 
-+ myscripts/: Docker 설치/제거 스크립트 모음.
++ 05_dockerfile/: RUN 명령의 Shell vs. Exec 형식 비교 실습.
 
-+ mynginx/: Dockerfile을 사용한 커스텀 Nginx 이미지 빌드 실습.
++ 05_ImageLayer/: Docker 이미지 레이어 구조 파악 실습.
 
-+ 01_volumescript/: Docker 볼륨 및 바인드 마운트 실습.
++ 05_MultiStage/: 멀티 스테이지 빌드 전략 실습.
 
 + port-forwarding-practice/: 포트 포워딩의 원리 및 필요성 실습.
-
-+ custom-network-practice/: 사용자 정의 네트워크를 이용한 컨테이너 간 통신 실습.
-
-+ 05_dockerfile/: RUN 명령의 Shell vs. Exec 형식 비교 실습.
 
 + 05_RUN/: CMD와 ENTRYPOINT 명령 사용법 실습.
 
