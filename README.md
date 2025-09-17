@@ -21,6 +21,10 @@
 
 + 05_workdir/: WORKDIR 명령 사용법 실습.
 
++ 05_python/: Flask와 MySQL 컨테이너 연동 실습.
+
++ 05_shellscript/: 셸 스크립트를 사용한 컨테이너 실행 프로세스 정의 실습.
+
 ## 🚀 주요 실습 내용
 + Docker 설치 자동화: install_docker.sh와 restore_install_docker.sh를 통해 환경 구축을 자동화했습니다.
 
@@ -31,6 +35,8 @@
 + 데이터 관리: 볼륨(docker volume)과 바인드 마운트(-v)를 비교하며 컨테이너 데이터의 영속성을 확보하는 방법을 익혔습니다.
 
 + Dockerfile 심화: RUN 명령의 두 가지 방식(Shell vs. Exec), CMD와 ENTRYPOINT의 차이, ONBUILD와 WORKDIR의 실무적 활용법을 학습했습니다.
+
++ 애플리케이션 컨테이너화: Flask 웹 서버와 MySQL DB를 별도의 컨테이너로 구성하고, 사용자 정의 네트워크와 볼륨을 활용하여 연동하는 실무적인 방법을 학습했습니다.
 
 ## 🛠️ 실행 방법
 각 디렉터리로 이동하여 README.md 파일의 안내에 따라 실습 스크립트를 실행해 보세요.
