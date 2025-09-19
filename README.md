@@ -39,6 +39,16 @@
 
 + 07_compose/04_mongo/: docker-compose로 Mongo 컨테이너 연동 실습.
 
++ 07_compose/05_postgres/: docker-compose로 PostgreSQL DB와 Adminer 연동 실습.
+
++ 07_compose-cmd/02_up/: docker compose up 명령의 다양한 활용 실습.
+
++ 07_haproxy-cmd/: docker run으로 HAProxy 로드 밸런서 구성 실습.
+
++ 07_haproxy-compose/: docker-compose로 HAProxy 로드 밸런서 구성 실습.
+
++ 07_composetest/: Flask와 Redis를 활용한 다중 컨테이너 애플리케이션 구축 실습.
+
 ## 🚀 주요 실습 내용
 + Docker 설치 자동화: install_docker.sh와 restore_install_docker.sh를 통해 환경 구축을 자동화했습니다.
 
@@ -52,7 +62,9 @@
 
 + 애플리케이션 컨테이너화: Flask 웹 서버와 MySQL DB를 별도의 컨테이너로 구성하고, 사용자 정의 네트워크와 볼륨을 활용하여 연동하는 실무적인 방법을 학습했습니다. 또한, FTP, PHP, Python WSGI 등 다양한 웹 서버 이미지를 제작하며 컨테이너화 역량을 강화했습니다.
 
-+ docker-compose 활용: docker-compose.yml 파일을 사용하여 Nginx, MongoDB, Mongo Express 등 복수 컨테이너를 효율적으로 관리하고 연동하는 방법을 학습했습니다.
++ docker-compose 활용: docker-compose.yml 파일을 사용하여 Nginx, MongoDB, Postgres 등 복수 컨테이너를 효율적으로 관리하고 연동하는 방법을 학습했습니다. 또한, docker compose up의 background 실행과 --scale 옵션, docker compose down 명령을 통해 컨테이너 관리 능력을 향상시켰습니다.
+
++ HAProxy 로드 밸런싱: docker-compose로 HAProxy 컨테이너를 구성하여 여러 웹 서버에 트래픽을 분산하는 실습을 통해 서비스의 고가용성과 확장성을 확보하는 방법을 배웠습니다.
 
 ## 🛠️ 실행 방법
 각 디렉터리로 이동하여 README.md 파일의 안내에 따라 실습 스크립트를 실행해 보세요.
