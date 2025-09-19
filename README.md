@@ -31,6 +31,14 @@
 
 + minipro3/: Apache + Python WSGI 웹 서버 이미지 제작 실습.
 
++ 07_compose/01_nginx/: docker-compose로 Nginx 웹 서버 구축 실습.
+
++ 07_compose/02_nginx/: docker-compose로 포트포워딩 실습.
+
++ 07_compose/03_nginx/: docker-compose로 Nginx 설정 파일 마운트 실습.
+
++ 07_compose/04_mongo/: docker-compose로 Mongo 컨테이너 연동 실습.
+
 ## 🚀 주요 실습 내용
 + Docker 설치 자동화: install_docker.sh와 restore_install_docker.sh를 통해 환경 구축을 자동화했습니다.
 
@@ -43,6 +51,8 @@
 + Dockerfile 심화: RUN 명령의 두 가지 방식(Shell vs. Exec), CMD와 ENTRYPOINT의 차이, ONBUILD와 WORKDIR의 실무적 활용법을 학습했습니다.
 
 + 애플리케이션 컨테이너화: Flask 웹 서버와 MySQL DB를 별도의 컨테이너로 구성하고, 사용자 정의 네트워크와 볼륨을 활용하여 연동하는 실무적인 방법을 학습했습니다. 또한, FTP, PHP, Python WSGI 등 다양한 웹 서버 이미지를 제작하며 컨테이너화 역량을 강화했습니다.
+
++ docker-compose 활용: docker-compose.yml 파일을 사용하여 Nginx, MongoDB, Mongo Express 등 복수 컨테이너를 효율적으로 관리하고 연동하는 방법을 학습했습니다.
 
 ## 🛠️ 실행 방법
 각 디렉터리로 이동하여 README.md 파일의 안내에 따라 실습 스크립트를 실행해 보세요.
